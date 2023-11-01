@@ -50,20 +50,4 @@ if (isset($_GET['id'])) {
 
 </div>
 
-<?php
-include('database/db.php');
-include('layouts/header.php');
-
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $query = "SELECT * FROM tasks WHERE id = $id";
-    $result = mysqli_query($conn, $query);
-    $row = mysqli_fetch_assoc($result);
-    $title = $row['title'];
-    $description = $row['description'];
-    $createdAt = $row['created_at'];
-}
-
-?>
-
 <?php include('layouts/footer.php'); ?>
