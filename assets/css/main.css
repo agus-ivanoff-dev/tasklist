@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* font-family: 'Montserrat', sans-serif; */
 
 h3{
@@ -32,4 +33,40 @@ h3{
 
 .btn > a{
     text-decoration: none;
+=======
+/* font-family: 'Montserrat', sans-serif; */
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.form-floating > input{
+    width: 100%;
+}
+
+.form-floating > textarea{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.438);
+    border-radius: 15px;
+    min-height: 160px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.alert-popup {
+    font-style: italic;
+}
+
+.link-popup{
+    text-decoration: none;
+
+}
+
+.link-popup:hover{
+    text-decoration: underline;
+}
+
+.btn > a{
+    text-decoration: none;
+>>>>>>> 91c7fd6b50c15a731426f11df5d7ccf283eafa6a
 }
