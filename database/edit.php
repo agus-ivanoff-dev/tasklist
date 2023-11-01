@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include('db.php');
 
 if(isset($_GET['id'])){
@@ -32,7 +31,6 @@ header("Location: ../edit_task.php");
 
 ?>
 
-=======
 <?php include('db.php');
 
 if(isset($_GET['id'])){
@@ -65,5 +63,3 @@ if(isset($_GET['id'])){
 header("Location: ../edit_task.php");
 
 ?>
-
->>>>>>> 91c7fd6b50c15a731426f11df5d7ccf283eafa6a

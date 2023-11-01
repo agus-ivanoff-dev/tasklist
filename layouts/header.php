@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 session_start();
 include('database/db.php')
@@ -52,7 +51,6 @@ include('database/db.php')
 
         </div>
 
-=======
 <?php
 session_start();
 include('database/db.php')
@@ -105,6 +103,5 @@ include('database/db.php')
             </div>
 
         </div>
-
->>>>>>> 91c7fd6b50c15a731426f11df5d7ccf283eafa6a
+        
     </nav>

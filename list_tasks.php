@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include('layouts/header.php') ?>
 
 <div class="container mt-5 p-4">
@@ -35,7 +34,6 @@
     ?>
 </div>
 
-=======
 <?php include('layouts/header.php') ?>
 
 <div class="container mt-5 p-4">
@@ -72,5 +70,4 @@
     ?>
 </div>
 
->>>>>>> 91c7fd6b50c15a731426f11df5d7ccf283eafa6a
 <?php include('layouts/footer.php') ?>

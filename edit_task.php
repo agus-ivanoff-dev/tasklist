@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include('database/db.php'); ?>
 <?php include('layouts/header.php'); ?>
 <?php
@@ -63,8 +62,6 @@ if (isset($_GET['id'])) {
 
 </div>
 
-
-=======
 <?php include('database/db.php'); ?>
 <?php include('layouts/header.php'); ?>
 <?php
@@ -129,6 +126,4 @@ if (isset($_GET['id'])) {
 
 </div>
 
-
->>>>>>> 91c7fd6b50c15a731426f11df5d7ccf283eafa6a
 <?php include('layouts/footer.php'); ?>
